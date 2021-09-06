@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <img src="imagens/code1.jpg">
+    
+    <head>
+        <meta charset="UTF-8">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+        <title>Programação - Básico</title>
+        <h1>Javascript: básico ao avançado</h1>
+        <link href="styles/style.css" rel="stylesheet">      
+    </head>
+
+    <body>
+        <h4>O que é o HTML</h4>
+        <p>HTML (Hypertext Markup Language) é uma linguagem de marcação utilizada para páginas web e aplicativos,<br>
+        é formado por elementos. Os elementos por sua vez devem consistir em tag de abertura e fechamento (<) e (<(/)),
+        o conteúdo em si fica no espaço entre as tags. Além disso, elas podem receber <strong>atributos</strong>.<br>
+        </p>        
+        <h4>Atributos de um elemento</h4> 
+        <p>
+        <img src="imagens/atributo.png" width="800" height="100"><br>
+        No exemplo acima, 'class' é o nome do atributo e 'editor-note' é o <strong>valor</strong> do atributo.<br>
+        Voltando rapidamento ao elemento, isto é um exemplto do <strong>elemento</strong> de parágrafo, usado para iniciar um novo parágrafo no site.<br>
+        O elemento começa com a abertura de tag e vai até o fechamento da mesma.
+        </p>
+        <h4>Nesting elements (aninhando elementos)</h4>
+        <p>
+            Podemos colocar um elemento dentro do outro também, isso é chamado 'nesting'.<br>
+            <img src="imagens/nesting.png"><br>
+            No exemplo acima, 'strong' faz com que a palavra apareça em <strong>negrito</strong> em seu texto.<br>
+            Lembrando apenas que a ordem de fechamento das tags, deve ser respectivamente da última tag aberta para a primeira;<br>
+            Pegando a imagem acima, abrimos primeiro o 'p' em seguinda o 'strong', logo fecharemos primeiro o 'strong' e por último o 'p'.<br>
+        </p>
+        <h4>Elementos Vazios</h4>
+        <p>
+            Há alguns tipos de elementos que não necessitam da abertura e fechamento de tags. Como é o caso do elemento 'img':<br>
+            <img src="imagens\vazio.png"><br>
+            No caso da tag 'img', ela não necessita da tag de fechamento, pois o propósito dela é apenas apresentar uma imagem que é colocada como atributo dentro dela.<br>
+        </p>
+        <h4>Listas</h4>
+        <p>
+            Há duas formas de criarmos uma lista no mundo HTML. A primeira é a lista desordenada (ou Unordered List) e a segunda é a lista ordenada (ordered list).<br>
+            A lista desordenada corresponde ao elemento 'ul' (<strong>U</strong>nordered <strong>L</strong>ist).<br>
+            A lista ordenada corresponde ao elemento 'ol' (<strong>O</strong>rdered <strong>L</strong>ist)<br>
+            No exemplo, temos a frase a seguir que poderemos transformar em uma lista desordenada(onde a ordem não importa):<br>
+            <img src="imagens\lista1.png"><br><br>
+            Para transformá-la em uma lista:<br>
+            <img src="imagens\lista2.png"><br><br>
+            Repare que cada item da lista está dentro da tag 'li', elemento lista; que por sua vez está dentro da tag de 'ul', elemento lista desordenada.<br>
+            O resultado no site ficará assim:<br><br>
+            At Mozilla, we're a global community of
+            <ul>
+                <li>technologists</li>
+                <li>thinkers</li>
+                <li>builders</li>
+            </ul>
+            <p>Working together.</p>
+        </p>
+        <h4>Links</h4>
+        <p>
+            Links são muito importantes, afinal são o que fazem da internet o que ela é. <br>
+            Para adicionarmos um link à nossa página, basta chamarmos o elemento 'a'. 'a' vem do inglês 'anchor'. Como na imagem a seguir:<br>
+            <img src="imagens\link.png"><br>
+            É importante não esquecer de utilizar o 'http' ou 'https', que é o protocolo do link. A imagem acima corresponde ao link abaixo:<br>
+            <a href="https://www.mozilla.org/en-US/about/manifesto/">Mozilla Manifesto</a>
+        </p>
+        
+        
+    <script src="scripts/main.js"></script>
+    </body>
+
+</html> 
